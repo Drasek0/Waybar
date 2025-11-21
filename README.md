@@ -1,2 +1,2 @@
 # Waybar
-# Waybar
+
