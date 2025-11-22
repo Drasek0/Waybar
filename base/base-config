@@ -19,6 +19,6 @@
 	],
 
 	// Load Modules
-	"include": ["~/.config/waybar/base/base-modules.json"],
+	"include": ["~/git/Waybar/base/base-modules.json"],
 
 }
