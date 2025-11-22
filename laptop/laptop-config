@@ -1,0 +1,24 @@
+{
+	"layer": "top",
+	"positoin": "top",
+	"height": 30,
+	"margin": "0 0 0 0", 
+
+	"modules-left": [
+		"tray"
+	],
+
+	"modules-center": [
+		"clock"
+	],
+
+	"modules-right": [
+		"battery",
+		"custom/power"
+
+	],
+
+	// Load Modules
+	"include": ["~/git/Waybar/laptop/laptop-modules.json"],
+
+}

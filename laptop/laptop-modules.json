@@ -1,0 +1,54 @@
+{
+	"tray": {
+		"spacing": 5
+	},
+
+	"clock": {
+		"tooltip-format": "<tt><small>{calender}</small></tt>",
+		"calender": {
+			"mode": "month",
+			"mode-mon-col": 3,
+			"weeks-pos": "right",
+			"on-scroll": 1,
+			"on-clock-right": "mode",
+			"format": {
+		"months": "<span color='#bb9af7'><b>{}</b></span>",
+		"days": "<span color='#7aa2f7'><b>{}</b></span>",
+		"weeks": "<span color='#9ece6a'><b>{}</b></span>",
+		"weekdays": "<span color='#e0af68'><b>{}</b></span>",
+		"today": "<span background='#2ac3de' color='#1a1b26'><b><u>{}</u></b></span>"
+			}
+		},
+		"actions": {
+			"on-click-right": "mode",
+			"on-click-forward": "tz_up",
+			"on-click-backward": "tz_down",
+			"on-scroll-up": "shift_up",
+			"on-scroll-down": "shift_down"
+		},
+		"format": "{:%a %d %b | %I:%M %p}",
+		"format-alt": "D {:%Y-%m-%d T %H:%M:%S}",
+		"intervall": 1
+
+	},
+
+
+
+	"battery": {
+		"bat": "BAT0",
+		"interval": 60,
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{capacity}% {icon}",
+
+	},
+
+	"custom/power": {
+		"format": "Power",
+		"on-click": "systemctl suspend",
+		"tooltip": false
+
+	}
+}
