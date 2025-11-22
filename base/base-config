@@ -13,7 +13,6 @@
 	],
 
 	"modules-right": [
-		"bbattery",
 		"custom/power"
 
 	],
