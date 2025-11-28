@@ -9,11 +9,12 @@
 	],
 
 	"modules-center": [
-		"clock"
+	  "clock#time",
+    "custom/power",	
+    "clock#date"
 	],
 
 	"modules-right": [
-		"custom/power"
 
 	],
 

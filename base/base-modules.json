@@ -3,16 +3,24 @@
 		"spacing": 5
 	},
     
-"clock": { 
-    "format": "{:%H:%M  }",
+"clock#time": { 
+    "format": "{:%H:%M}",
     "format-alt": "{:%T}",
     "interval": 1, 
     "max-length": 10
   },
-	"custom/power": {
-		"format": "   ",
-		"on-click": "systemctl suspend",
-		"tooltip": false
+
+"clock#date": { 
+    "format": "{:%D}",
+    "format-alt": "{:%T}",
+    "interval": 1, 
+    "max-length": 10
+  },
+
+"custom/power": {
+	"format": "  ",
+	"on-click": "systemctl suspend",
+	"tooltip": false
 
 	}
 }
