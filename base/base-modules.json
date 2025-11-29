@@ -29,9 +29,15 @@
   "format": "{status}",
   "format-off": "",
   "format-connected": "{device_alias}"
+  },
+
+"network":  {
+
+  "format": " ",
+
+  "tooltip-format": "{ipaddr}"
 
   }
-
 
 
 }

@@ -13,8 +13,8 @@
     "clock#time",
     "custom/power",	
     "clock#date",
-    "bluetooth"
-
+    "bluetooth",
+    "network"
 	],
 
 	"modules-right": [
