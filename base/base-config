@@ -5,13 +5,16 @@
 	"margin": "0 0 0 0", 
 
 	"modules-left": [
-		"tray"
+
 	],
 
 	"modules-center": [
-	  "clock#time",
+	  "tray", 
+    "clock#time",
     "custom/power",	
-    "clock#date"
+    "clock#date",
+    "bluetooth"
+
 	],
 
 	"modules-right": [

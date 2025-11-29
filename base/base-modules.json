@@ -1,12 +1,12 @@
 {
 	"tray": {
-		"spacing": 5
 	},
     
 "clock#time": { 
     "format": "{:%H:%M}",
     "format-alt": "{:%T}",
     "interval": 1, 
+    "tooltip": false,
     "max-length": 10
   },
 
@@ -14,7 +14,7 @@
     "format": "{:%D}",
     "format-alt": "{:%T}",
     "interval": 1, 
-    "max-length": 10
+    "max-length": 10,
   },
 
 "custom/power": {
@@ -22,5 +22,16 @@
 	"on-click": "systemctl suspend",
 	"tooltip": false
 
-	}
+	},
+
+"bluetooth": {
+
+  "format": "{status}",
+  "format-off": "",
+  "format-connected": "{device_alias}"
+
+  }
+
+
+
 }
