@@ -28,7 +28,8 @@
 
   "format": "{status}",
   "format-off": "",
-  "format-connected": "{device_alias}"
+  "format-connected": "{device_alias}",
+  "on-click": "blueman-manager"
   },
 
 "network":  {
