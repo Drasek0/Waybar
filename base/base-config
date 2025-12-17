@@ -3,7 +3,7 @@
 	"positoin": "top",
 	"height": 30,
 	"margin": "0 0 0 0",
-	"modules-left": ["media", "pulseaudio"],
+	"modules-left": ["mpris", "pulseaudio"],
 	"modules-center": ["hyprland/workspaces"],
 	"modules-right": ["clock", "bluetooth", "network", "pacman"],
 	
