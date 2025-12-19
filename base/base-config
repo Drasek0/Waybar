@@ -3,9 +3,11 @@
 	"positoin": "top",
 	"height": 30,
 	"margin": "0 0 0 0",
-	"modules-left": ["mpris", "pulseaudio"],
+
+	// for simplisity i removed mpris this is the media control module
+	"modules-left": ["pulseaudio"],
 	"modules-center": ["hyprland/workspaces"],
-	"modules-right": ["clock", "bluetooth", "network", "pacman"],
+	"modules-right": ["bluetooth", "network", "pacman", "clock"],
 	
 	// Load Modules
 	"include": [
